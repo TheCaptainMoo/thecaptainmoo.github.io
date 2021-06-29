@@ -1,45 +1,60 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /* CSS Document */
 
 html{
    /*background-image: linear-gradient(to top right, #131111, #13131c);*/
-   background-color: rgb(39, 39, 39);
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: rgb(255,119,0);
    background-size: cover;
+   color: #FFFFFF;
+   text-align: center;
 }
 
 h1{
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: #FFFFFF;
-   font-size: 24px;
-   background-color: rgb(39, 39, 39);
+   font-size: 120px;
+   margin-bottom: 1%;
 }
 
-h1{
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: #FFFFFF;
-   font-size: 24px;
-   background-color: rgb(39, 39, 39);
+h2{
+   margin-top: 1%;
+   font-size: 60px;
 }
 
 p{
    color: #FFFFFF;
+   font-size: 40px;
 }
 
-.center{
-   text-align: center;
-   align-content: center;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
+a{
+   text-decoration: none;
+}
+
+/* Classes */
+
+.highlight{
+   border-radius: 10px;
+   border: 2px solid #FFFD98;
+   background-color: #FFFD98;
+   padding: 0.1%;
+   color: #2A2B2A;
+}
+
+.highlight:hover{
+   border: 2px solid #FFFD77;
+   background-color: #FFFD77;
+   cursor: pointer;
+}
+
+.image{
+   max-width: 100%;
+   height: auto;
 }
 
 .text{
    text-align: center;
    display: block;
-   margin-left: 25%;
-   margin-right: 25%;
-   font-size: 20px;
+   margin: 10%;
 }
 
 .head{
@@ -47,32 +62,7 @@ p{
    padding-top: 1%;
 }
 
-.tcmimg{
-   height: 7%;
-   width: 10%;
-   /*padding-top: 1%;*/
-}
-
-.back{
-   background-color: rgb(39, 39, 39);
-   background-size: cover;
-}
-
-.sticky{
-   position: -webkit-sticky;
-   position: sticky;
-   top: 0;
-}
-
 .footer{
    font-size: small;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: #FFFFFF;
-}
-
-.logo{
-   padding-top: 5%;
-   align-content: center; 
-   width: 100%; 
-   height: 60%;
 }
