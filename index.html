@@ -6,64 +6,41 @@
 		<title>The Captain Moo | Home</title>
 		
 		<link href="style1.css" rel="stylesheet" />
-		<link rel="icon" href="images/Title.png"/>
+		<link rel="icon" href="images/CircleProfile.PNG"/>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		 
 		<script src="script1.js"></script>
 	</head>
 
-	<body class="back">
-		
-		<div class="sticky"> <!-----------------------------------------------------------------------------------Sticky Navbar-->
-			
-
-			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-				<img src="images/CircleProfile.PNG" alt="My Logo" class="tcmimg">
-				<div class="center">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="videos.html">Videos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="music.html">Music</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="gamesoftware.html">Games And Software</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link disabled" href="#">Merch</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://discord.gg/Y4AW5qJ" target="blank">Discord</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="bot.html">The Arcade</a>
-						</li>
-					</ul>
-				</div>
-			  </nav>
+	<body>
+		<div> <!--Header-->
+			<h1 data-aos="zoom-in-right">Hello!</h1>
+			<h2 data-aos="zoom-in-left">I'm Moo</h2>
 		</div>
 
 		<div class="text"> <!--Body-->
 			<div id="home">
-				<img src="images/Profile.PNG" alt="Big Logo" id="logo">
+				<br><br><br><br><br><br><br><br><br><br><br><br>
+				<img class="image" src="images/Profile.png" alt="Moo's Logo" data-aos="zoom-in">
 				<br><br><br><br><br><br><br><br>
-				<h1>Hello!</h1>
-				<p>I'm The Captain Moo, I'm an indie game developer and the Owner and Newsreader of Moo News looking to better myself in the art's of game development. Not only that but I make music, software and just weird videos in general.</p>
+   				<p data-aos="zoom-in">I'm an <a href="https://the-captain-moo.itch.io/" target="_blank"><span class="highlight">indie game developer</span></a>, musician,  <a href="https://www.youtube.com/TheCaptainMoo" target="_blank"><span class="highlight">content creator</span></a> on YouTube and a cheese toastie lover</p>
 			</div>
 		</div>	
 
-	</body>
+		
 
-	<footer class="footer">
-		<p class="center">Copyright &copy; The Captain Moo 2020. All Rights Reserved</p>
-	</footer>
+		<script>
+			AOS.init({
+				once: false,
+				mirror: true,
+				anchorPlacement: 'top-bottom',
+				offset: 0,
+				duration: 1600
+			});
+		</script>
+	</body>
 </html>
