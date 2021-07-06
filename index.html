@@ -16,28 +16,49 @@
 		<script src="script1.js"></script>
 	</head>
 
-	<body>
-		<div> <!--Header-->
+	<body data-aos-mirror="true">
+		<section class="centered">
 			<h1 data-aos="zoom-in-right">Hello!</h1>
-			<h2 data-aos="zoom-in-left">I'm Moo</h2>
-		</div>
+			<h2 data-aos="zoom-in-left">I'm Moo.</h2>
+		</section>
 
-		<div class="text"> <!--Body-->
-			<div id="home">
-				<br><br><br><br><br><br><br><br><br><br><br><br>
-				<img class="image" src="images/Profile.png" alt="Moo's Logo" data-aos="zoom-in">
-				<br><br><br><br><br><br><br><br>
-   				<p data-aos="zoom-in">I'm an <a href="https://the-captain-moo.itch.io/" target="_blank"><span class="highlight">indie game developer</span></a>, musician,  <a href="https://www.youtube.com/TheCaptainMoo" target="_blank"><span class="highlight">content creator</span></a> on YouTube and a cheese toastie lover</p>
+
+		<section class="centered">
+			<br>
+			<img class="image" src="images/Profile.png" alt="Moo's Logo" data-aos="zoom-in">
+		</section>	
+
+		<section class="centered">
+			<p data-aos="zoom-in">I'm an <a href="https://the-captain-moo.itch.io/" target="_blank"><span class="highlight">indie game developer</span></a>, musician,  <a href="https://www.youtube.com/TheCaptainMoo" target="_blank"><span class="highlight">content creator</span></a> on YouTube and a cheese toastie lover</p>
+		</section>
+
+		<section>
+			<div class="row">
+				<div class="icon">
+					<a href="https://discord.gg/Y4AW5qJ" target="_blank"><img src="images/Discord.png" data-aos="zoom-out-right"></a>
+				</div>
+				<div class="icon">
+					<a href="https://twitter.com/moo_captain" target="_blank"><img src="images/Twitter.png" data-aos="zoom-out-down"></a>
+				</div>
+				<div class="icon">
+					<a href="https://youtube.com/TheCaptainMoo" target="_blank"><img src="images/YouTube.png" data-aos="zoom-out-left"></a>
+				</div>
 			</div>
-		</div>	
-
-		
+			<div class="row">
+				<div class="icon">
+					<a href="https://github.com/TheCaptainMoo" target="_blank"><img src="images/GitHub.png" data-aos="zoom-out-right"></a>
+				</div>
+				<div class="icon">
+					<a href="https://the-captain-moo.itch.io/" target="_blank"><img src="images/Itch.png" data-aos="zoom-out-left"></a>
+				</div>
+			</div>
+		</section>
 
 		<script>
 			AOS.init({
 				once: false,
 				mirror: true,
-				anchorPlacement: 'top-bottom',
+				anchorPlacement: 'bottom-bottom',
 				offset: 0,
 				duration: 1600
 			});
