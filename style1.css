@@ -30,11 +30,10 @@ p{
    font-weight: 300;
 }
 
-a{
-   text-decoration: none;
+a {
+    text-decoration: none;
+    color: #2E2F2F;
 }
-
-
 
 /* Classes */
 
@@ -64,6 +63,7 @@ a{
 .image{
    max-width: 60%;
    height: auto;
+   flex-basis:30%;
 }
 
 .row{
@@ -90,4 +90,31 @@ a{
 .footer{
    font-size: small;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.leftPanel {
+    float: left;
+    width: 45%;
+}
+
+.rightPanel {
+    float: right;
+    width: 55%
+}
+
+.dlPanel {
+    background-color: #2E2F2F;
+    width:50%;
+    margin:auto;
+    border: 2px solid #2E2F2F;
+    border-radius: 5px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px){
+    .leftPanel, .rightPanel{
+        float:none;
+        width:100%;
+    }
 }
