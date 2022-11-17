@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 /* CSS Document */
 
-html{
-   /*background-image: linear-gradient(to top right, #131111, #13131c);*/
-   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   background-color: rgb(255,119,0);
-   background-size: cover;
-   color: #FFFFFF;
-   text-align: center;
+html {
+    /*background-image: linear-gradient(to top right, #131111, #13131c);*/
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: /*rgb(255,119,0)*/ #2E2F2F;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 h1{
@@ -17,11 +17,11 @@ h1{
    margin: 1%;
 }
 
-h2{
-   color: #2A2B2A;
-   margin: 1%;
-   font-size: 120px;
-   font-weight: 300;
+h2 {
+    color: /*#2A2B2A*/ rgb(255,119,0);
+    margin: 1%;
+    font-size: 120px;
+    font-weight: 300;
 }
 
 p{
@@ -32,7 +32,7 @@ p{
 
 a {
     text-decoration: none;
-    color: #2E2F2F;
+    color: /*#2E2F2F*/ rgb(255,119,0);
 }
 
 /* Classes */
@@ -103,14 +103,25 @@ a {
 }
 
 .dlPanel {
-    background-color: #2E2F2F;
-    width:50%;
-    margin:auto;
-    border: 2px solid #2E2F2F;
-    border-radius: 5px;
+    background-color: #282828;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /*border: 2px solid 282828;*/
+    border-radius: 3%;
 }
 
 /* Responsive */
+
+.projectPanel {
+    background-color: #2A2B2A;
+    border-radius: 3%;
+}
+
+.gridPanel{
+    display: grid;
+    gap: 1%;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 2fr))
+}
 
 @media only screen and (max-width: 768px){
     .leftPanel, .rightPanel{
