@@ -2,7 +2,7 @@
 module.exports = {
   content: { 
     transform: (content) => content.replace(/taos:/g, ''),
-    files: ['./public/**/*.{html,js}']
+    files: ['./docs/**/*.{html,js}']
   },
   theme: {
     extend: {
