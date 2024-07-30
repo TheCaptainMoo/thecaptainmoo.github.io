@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply m-4 bg-blue2 rounded-lg shadow-md overflow-hidden border-blue2 border-2 hover:border-white transition ease-out duration-500
+}
+
+.icon {
+    @apply w-32 h-32 lg:w-60 lg:h-60 text-grey dark:text-white hover-enlarge
+}
+
+.heading-text {
+    @apply flex justify-center text-6xl md:text-8xl lg:justify-start
+}
+
+.windows-badge {
+    @apply text-xs font-medium me-2 px-2.5 py-0.5 m-2 rounded bg-green-900 text-green-200
+}
+
+.linux-badge {
+    @apply text-xs font-medium me-2 px-2.5 py-0.5 m-2 rounded bg-blue-900 text-blue-200
+}
+
+.rust-badge {
+    @apply text-xs font-medium me-2 px-2.5 py-0.5 m-2 rounded bg-amber-700 text-amber-200
+}
+
+.hover-enlarge {
+    @apply hover:scale-110 transition ease-in-out duration-100
+}
