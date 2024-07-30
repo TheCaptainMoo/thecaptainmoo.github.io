@@ -640,10 +640,6 @@ html.js :where([class*="taos:"]:not(.taos-init)){
   background-size: 1000px 1000px;
 }
 
-.bg-\[length\:250px_250px\]{
-  background-size: 250px 250px;
-}
-
 .bg-\[length\:500px_500px\]{
   background-size: 500px 500px;
 }
@@ -801,7 +797,7 @@ html.js :where([class*="taos:"]:not(.taos-init)){
   height: 8rem;
   width: 8rem;
   --tw-text-opacity: 1;
-  color: rgb(46 47 47 / var(--tw-text-opacity));
+  color: rgb(239 241 243 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -819,13 +815,6 @@ html.js :where([class*="taos:"]:not(.taos-init)){
   .icon{
     height: 15rem;
     width: 15rem;
-  }
-}
-
-@media (prefers-color-scheme: dark){
-  .icon{
-    --tw-text-opacity: 1;
-    color: rgb(239 241 243 / var(--tw-text-opacity));
   }
 }
 

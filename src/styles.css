@@ -13,7 +13,7 @@
 }
 
 .icon {
-    @apply w-32 h-32 lg:w-60 lg:h-60 text-grey dark:text-white hover-enlarge
+    @apply w-32 h-32 lg:w-60 lg:h-60 text-white hover-enlarge
 }
 
 .heading-text {
