@@ -606,16 +606,6 @@ html.js :where([class*="taos:"]:not(.taos-init)){
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-x-\[200px\]{
-  --tw-translate-x: 200px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-\[200px\]{
-  --tw-translate-y: 200px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -648,6 +638,10 @@ html.js :where([class*="taos:"]:not(.taos-init)){
 
 .bg-\[length\:1000px_1000px\]{
   background-size: 1000px 1000px;
+}
+
+.bg-\[length\:250px_250px\]{
+  background-size: 250px 250px;
 }
 
 .bg-\[length\:500px_500px\]{
@@ -781,6 +775,8 @@ html.js :where([class*="taos:"]:not(.taos-init)){
   border-color: rgb(55 114 255 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(55 114 255 / var(--tw-bg-opacity));
+  background-size: 250px 250px;
+  background-repeat: repeat;
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -795,6 +791,10 @@ html.js :where([class*="taos:"]:not(.taos-init)){
 .card:hover{
   --tw-border-opacity: 1;
   border-color: rgb(239 241 243 / var(--tw-border-opacity));
+}
+
+.card {
+  background-image: url('images/bluebackground.svg');
 }
 
 .icon{

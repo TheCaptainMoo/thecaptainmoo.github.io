@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 .card {
-    @apply m-4 bg-blue2 rounded-lg shadow-md overflow-hidden border-blue2 border-2 hover:border-white transition ease-out duration-500
+    @apply m-4 bg-blue2 bg-repeat bg-[length:250px_250px] rounded-lg shadow-md overflow-hidden border-blue2 border-2 hover:border-white transition ease-out duration-500
+}
+
+.card {
+    background-image: url('images/bluebackground.svg');
 }
 
 .icon {
